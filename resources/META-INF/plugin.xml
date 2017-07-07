@@ -1,0 +1,21 @@
+<idea-plugin version="2">
+
+    <id>com.manojkhannakm.prosolver</id>
+    <name>ProSolver</name>
+    <version>1.0</version>
+    <vendor email="manojkhannakm@gmail.com">Manoj Khanna</vendor>
+
+    <description><![CDATA[]]></description>
+
+    <change-notes><![CDATA[]]></change-notes>
+
+    <idea-version since-build="141.0"/>
+
+    <depends>com.intellij.modules.java</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow id="ProSolver" factoryClass="com.manojkhannakm.prosolver.swing.toolwindow.ToolWindowFactory"
+                    anchor="right"/>
+    </extensions>
+
+</idea-plugin>
